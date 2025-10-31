@@ -129,29 +129,3 @@ header p {
   color: #ccc;
   text-shadow: 1px 1px 2px #000;
 }
-
-img.responsive {
-  max-height: 600px;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #000;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
