@@ -131,8 +131,8 @@ header p {
 }
 
 img.responsive {
-  max-height: 500px;
-  max-width: 90%;
+  max-height: 300px;
+  max-width: 50%;
   width: auto;
   height: auto;
   display: block;
@@ -140,6 +140,7 @@ img.responsive {
   border-radius: 8px;
   box-shadow: 0 0 10px #000;
 }
+
 
 
 
