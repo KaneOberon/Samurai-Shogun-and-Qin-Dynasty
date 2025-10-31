@@ -5,15 +5,24 @@
   box-sizing: border-box;
 }
 
-/* === BODY === */
+/* === HTML & BODY === */
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Garamond', serif;
-  background-image: url('images/castle-wall.jpg'); /* Placeholder */
+  background-image: url('images/castle-wall.jpg'); /* Replace with bg-samurai.jpg or bg-qin.jpg as needed */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #f0e6d2;
   min-height: 100vh;
   padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* === HEADER === */
@@ -76,7 +85,7 @@ header p {
   color: #ccc;
 }
 
-/* === BACKGROUND OVERRIDES (if needed) === */
+/* === BACKGROUND OVERRIDES === */
 .samurai-bg {
   background-image: url('images/bg-samurai.jpg');
   background-size: cover;
@@ -87,13 +96,12 @@ header p {
   color: #f0e6d2;
 }
 
-
 .qin-bg {
   background-image: url('images/bg-qin.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #000;
+  background-attachment: fixed;
+  min-height: 100vh;
   color: #f0e6d2;
 }
-
