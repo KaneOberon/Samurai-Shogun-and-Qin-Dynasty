@@ -131,15 +131,16 @@ header p {
 }
 
 img.responsive {
-  max-height: 300px;
-  max-width: 50%;
-  width: auto;
+  max-height: 280px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
   display: block;
   margin: 20px auto;
   border-radius: 8px;
   box-shadow: 0 0 10px #000;
 }
+
 
 
 
