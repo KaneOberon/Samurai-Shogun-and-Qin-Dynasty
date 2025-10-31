@@ -105,3 +105,29 @@ header p {
   min-height: 100vh;
   color: #f0e6d2;
 }
+
+/* === CONTENT OVERLAY === */
+.content-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Translucent black */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 0 20px #000;
+  color: #f0e6d2;
+}
+
+.content-overlay h2,
+.content-overlay h3 {
+  color: #d4af37;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.content-overlay p,
+.content-overlay li {
+  font-size: 1.1rem;
+  color: #ccc;
+  text-shadow: 1px 1px 2px #000;
+}
+
+
