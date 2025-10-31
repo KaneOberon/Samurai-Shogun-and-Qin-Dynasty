@@ -82,9 +82,11 @@ header p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #000;
+  background-attachment: fixed;
+  min-height: 100vh;
   color: #f0e6d2;
 }
+
 
 .qin-bg {
   background-image: url('images/bg-qin.jpg');
@@ -94,3 +96,4 @@ header p {
   background-color: #000;
   color: #f0e6d2;
 }
+
