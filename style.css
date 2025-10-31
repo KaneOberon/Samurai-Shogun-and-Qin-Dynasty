@@ -32,21 +32,7 @@ header p {
   font-size: 1.2rem;
   color: #ccc;
   text-shadow: 1px 1px 2px #000;
-}
-
-nav {
-  margin-top: 20px;
-}
-
-nav a {
-  margin: 0 10px;
-  color: #f0e6d2;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #d4af37;
+  margin-top: 10px;
 }
 
 /* === FACTION LINK ROW === */
@@ -54,99 +40,43 @@ nav a:hover {
   display: flex;
   justify-content: center;
   gap: 40px;
+  flex-wrap: wrap;
   margin-top: 60px;
 }
 
-/* === FACTION LINK STYLE === */
-.faction-link {
-  background-color: rgba(0, 0, 0, 0.7);
-  border: 2px solid #d4af37;
-  border-radius: 10px;
-  padding: 20px 30px;
-  font-size: 1.2rem;
-  color: #f0e6d2;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 0 10px #000;
-  transition: transform 0.3s ease;
-}
-
-.faction-link:hover {
-  transform: scale(1.05);
-  border-color: #fff;
-  color: #d4af37;
-}
-
-/* === SECTION HEADINGS === */
-section h2 {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  color: #d4af37;
-  text-shadow: 1px 1px 2px #000;
-}
-
-/* === SECTION CONTENT === */
-section {
-  margin-bottom: 60px;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* === IMAGE STYLING === */
-section img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border: 2px solid #d4af37;
-  border-radius: 6px;
-  box-shadow: 0 0 10px #000;
-  margin-bottom: 20px;
-}
-
-/* === LISTS === */
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-  font-size: 1.1rem;
-  color: #f0e6d2;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-/* === CARD GRIDS === */
-.castle-grid,
-.troop-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-}
-
-/* === CARD STYLING === */
-.castle-card,
-.troop-card {
+/* === EMPIRE CARD === */
+.empire-card {
+  display: block;
+  width: 280px;
+  min-height: 160px;
   background-color: rgba(0, 0, 0, 0.7);
   border: 2px solid #d4af37;
   border-radius: 10px;
   padding: 20px;
-  width: 280px;
+  text-align: center;
+  text-decoration: none;
   color: #f0e6d2;
   box-shadow: 0 0 10px #000;
-  text-align: center;
+  transition: transform 0.3s ease;
 }
 
-.castle-card img,
-.troop-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
+.empire-card:hover {
+  transform: scale(1.05);
+  border-color: #fff;
+}
+
+.empire-card h2 {
+  font-size: 1.5rem;
   margin-bottom: 10px;
+  color: #d4af37;
 }
 
-/* === EMPIRE BACKGROUNDS === */
+.empire-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* === BACKGROUND OVERRIDES (if needed) === */
 .samurai-bg {
   background-image: url('images/bg-samurai.jpg');
   background-size: cover;
