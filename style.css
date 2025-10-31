@@ -5,10 +5,10 @@
   box-sizing: border-box;
 }
 
-/* === BODY BACKGROUND === */
+/* === BODY === */
 body {
   font-family: 'Garamond', serif;
-  background-image: url('images/castle-wall.jpg'); /* Placeholder path */
+  background-image: url('images/castle-wall.jpg'); /* Placeholder */
   background-size: cover;
   background-position: center;
   color: #f0e6d2;
@@ -46,6 +46,34 @@ nav a {
 }
 
 nav a:hover {
+  color: #d4af37;
+}
+
+/* === FACTION LINK ROW === */
+.link-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+/* === FACTION LINK STYLE === */
+.faction-link {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 1.2rem;
+  color: #f0e6d2;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s ease;
+}
+
+.faction-link:hover {
+  transform: scale(1.05);
+  border-color: #fff;
   color: #d4af37;
 }
 
@@ -136,8 +164,3 @@ li {
   background-color: #000;
   color: #f0e6d2;
 }
-
-  text-align: center;
-  padding: 1rem;
-}
-
